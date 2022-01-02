@@ -10,3 +10,4 @@ Type the following into the Terminal:
 $bot install <pkg_name>
 ```
 And GnuBot will add the package to the computer (download > install > complete):
+![Packaging flow](https://raw.githubusercontent.com/gnubot/gnubot/f6de7296e006b6ee0c014cd6507f1f68cb666bf0/gnubot-packaging-flow.svg)
