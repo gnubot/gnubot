@@ -4,10 +4,9 @@
 # GnuBot
 The unknown package manager for GNU.
 
-## Install packages
-
-
-
+## How it works
+Type the following into the Terminal:
 ```coffee
 $bot install <pkg_name>
 ```
+And GnuBot will add the package to the computer (download > install > complete):
