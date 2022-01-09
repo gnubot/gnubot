@@ -35,6 +35,8 @@ Examples of unacceptable behavior include:
   address, without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
+* In the package community, pirated software or malware.
+  For more info, see "[Pirating software](https://github.com/gnubot/gnubot/wiki/Pirating-software)".
 
 ## Enforcement Responsibilities
 
