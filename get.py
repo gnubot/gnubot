@@ -13,4 +13,22 @@
 
 ##  You should have received a copy of the GNU General Public License
 ##  along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# wip
+import requests
+
+print('Beginning file download with requests')
+
+url = 'http://raw.githubusercontent.com/gnubot/WebGet/main/webget.r'
+
+r = requests.get(url)
+
+with open('./webget.r', 'wb') as f:
+
+    f.write(r.content)
+
+# Retrieve HTTP meta-data
+
+print(r.status_code)
+
+print(r.headers['content-type'])
+
+print(r.encoding)
